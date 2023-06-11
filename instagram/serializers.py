@@ -1,5 +1,3 @@
-# serializers.py
-
 from rest_framework import serializers
 from .models import UserProfile, UserProfileMedia, Post, PostMedia, Comment, Follower, Following, Message, Chat
 from .models import CustomUser
