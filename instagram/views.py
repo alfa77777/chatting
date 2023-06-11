@@ -10,7 +10,7 @@ from .serializers import (
     CommentSerializer,
     FollowerSerializer,
     FollowingSerializer,
-    UserSerializer,
+    CustomUserSerializer,
     ChatSerializer,
     MessageSerializer,
 )
@@ -54,7 +54,7 @@ class FollowingViewSet(viewsets.ReadOnlyModelViewSet):
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
-    serializer_class = UserSerializer
+    serializer_class = CustomUserSerializer
 
 
 class ChatViewSet(viewsets.ModelViewSet):

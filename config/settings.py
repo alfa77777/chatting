@@ -65,7 +65,7 @@ INSTALLED_APPS = [
     # 'drf_yasg'
 
     # local apps
-    "users"
+    "instagram"
 ]
 
 SITE_ID = 1

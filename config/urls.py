@@ -8,7 +8,7 @@ from config.views import custom_logout
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include("users.urls")),
+    path('instagram_api/', include("instagram.urls")),
     path('accounts/logout/', custom_logout, name='logout'),
 ]
 
